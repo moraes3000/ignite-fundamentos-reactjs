@@ -1,0 +1,12 @@
+{
+  "name": "Aula-01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:moraes3000/ignite-fundamentos-reactjs.git",
+  "author": "Bruno Barbeiro Moraes <bruno_bmoraes@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
