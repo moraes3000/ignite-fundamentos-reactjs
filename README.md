@@ -14,6 +14,10 @@ Babel serve para que os navegadores mais antigos, consiga entender os códigos m
 * Documentação BaBel -  https://babeljs.io/
 * Depois de instalar criar um arquivo babel.config.js
 
+## Instalar o Webpack
+Faz as configurações de como deve tratar os arquivos para o template.
+* Documentação Webpack - https://webpack.js.org/
+* Depois de instalar criar um arquivo webpack.config.js
 
 
 
