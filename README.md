@@ -9,6 +9,10 @@ yarn init -y
 
 * Pasta <b>src</b> fica todas os arquivos
 
+## Instalar o Babel
+Babel serve para que os navegadores mais antigos, consiga entender os códigos mais recentes.
+* Documentação BaBel -  https://babeljs.io/
+* Depois de instalar criar um arquivo babel.config.js
 
 
 
