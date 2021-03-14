@@ -20,6 +20,8 @@ Faz as configurações de como deve tratar os arquivos para o template.
 * Depois de instalar criar um arquivo webpack.config.js
 
 
+## https://github.com/pmmmwh/react-refresh-webpack-plugin
+
 
 
 
