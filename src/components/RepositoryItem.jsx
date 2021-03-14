@@ -5,6 +5,5 @@ export function RepositoryItem(props) {
             <p>{props.repository.description ?? 'Default'}</p>
             <a href={props.repository.link}>Acessar Repositório</a>
         </li>
-
     )
 }
