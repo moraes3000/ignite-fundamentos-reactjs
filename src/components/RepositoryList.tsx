@@ -6,9 +6,15 @@ import '../styles/repositories.scss'
 
 //https://api.github.com/orgs/rocketseat/repos
 
+interface Repository {
+    name: string,
+    description: string,
+    html_url: string
+}
+
 export function RepositoryList() {
 
-    const [respositories, setRespositories] = useState([])
+    const [respositories, setRespositories] = useState<Repository[]>([])
 
     useEffect(() => {
         const url = 'https://api.github.com/orgs/rocketseat/repos';
