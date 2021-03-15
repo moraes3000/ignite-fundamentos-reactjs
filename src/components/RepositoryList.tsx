@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { RepositoryItem } from "./RepositoryItem";
 import '../styles/repositories.scss'
 
-//https://api.github.com/users/mores3000/repos
+//https://api.github.com/users/moraes3000/repos
 
 //https://api.github.com/orgs/rocketseat/repos
 
@@ -17,7 +17,7 @@ export function RepositoryList() {
     const [respositories, setRespositories] = useState<Repository[]>([])
 
     useEffect(() => {
-        const url = 'https://api.github.com/orgs/rocketseat/repos';
+        const url = 'https://api.github.com/users/moraes3000/repos';
         fetch(url).then(response => response.json())
             .then(data => setRespositories(data))
 
