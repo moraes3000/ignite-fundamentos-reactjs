@@ -1,6 +1,6 @@
 # Bootcamp  Rocketseat Ignite 
 ## Material de estudo do Bootcamp  Rocketseat Ignite 
-* Sempre inicar um repositorio "packge.json", responsável por toda a dependências do projeto.
+* Sempre iniciar um repositório "package.json", responsável por toda a dependências do projeto.
 ```term
 yarn init -y 
 ```
@@ -20,7 +20,9 @@ Faz as configurações de como deve tratar os arquivos para o template.
 * Depois de instalar criar um arquivo webpack.config.js
 
 
-## https://github.com/pmmmwh/react-refresh-webpack-plugin
+### https://github.com/pmmmwh/react-refresh-webpack-plugin
+
+
 
 
 
@@ -47,3 +49,15 @@ Instalar as Dependências
 ```term
 yarn install
 ```
+Rodando o projeto 
+```term
+yarn dev
+```
+Acessando a página web no endereço:  
+
+- http://localhost:8080/ 
+- http://127.0.0.1:8080/
+
+
+# Assets
+<img src='public/img.png'/>
